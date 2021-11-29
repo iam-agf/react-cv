@@ -1,0 +1,82 @@
+@import './localVariables.scss';
+.upper {
+    grid-area: upper;
+    height: $header-height;
+    width: $width;
+    background-color: $header-color;
+    color: $header-font-color;
+    display: grid;
+    grid-template-columns: 115mm 1fr 1fr;
+    padding: 0 0 0 35px;
+    grid-template-areas: "title-name networks frameworks" "title-name languages software";
+    .name {
+        grid-area: title-name;
+        display: grid;
+        grid-template: "title-section" "mail-section" "description-section";
+        margin-top: 20px;
+        margin-left: 15px;
+        .title-section {
+            display: flex;
+            grid-area: title-section;
+            align-items: end;
+            font-size: 32px;
+        }
+        .mail-section {
+            display: flex;
+            grid-area: mail-section;
+            align-items: start;
+            font-size: 16px;
+        }
+        .description-section {
+            grid-area: description-section;
+            font-size: 16px;
+            width: 400px;
+        }
+    }
+    .networks {
+        display: grid;
+        grid-area: networks;
+        grid-template-areas: "title-section" "logos";
+        padding-top: 20px;
+        &-title {
+            grid-area: title-section;
+        }
+        &-logos {
+            grid-area: logos;
+        }
+    }
+    .languages {
+        display: grid;
+        grid-area: languages;
+        grid-template-areas: "title-section" "logos";
+        &-title {
+            grid-area: title-section;
+        }
+        &-logos {
+            grid-area: logos;
+        }
+    }
+    .frameworks {
+        display: grid;
+        grid-area: frameworks;
+        grid-template-areas: "title-section" "logos";
+        padding-top: 20px;
+        &-title {
+            grid-area: title-section;
+        }
+        &-logos {
+            grid-area: logos;
+        }
+    }
+    .operativesystems {
+        display: grid;
+        grid-area: software;
+        grid-template-areas: "title-section" "logos";
+        &-title {
+            grid-area: title-section;
+        }
+        &-logos {
+            grid-area: logos;
+        }
+    }
+}

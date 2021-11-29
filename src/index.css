@@ -1,0 +1,191 @@
+.upper {
+  grid-area: upper;
+  height: 50mm;
+  width: 230.9mm;
+  background-color: #4285f4;
+  color: white;
+  display: grid;
+  grid-template-columns: 115mm 1fr 1fr;
+  padding: 0 0 0 35px;
+  grid-template-areas: "title-name networks frameworks" "title-name languages software";
+}
+.upper .name {
+  grid-area: title-name;
+  display: grid;
+  grid-template: "title-section" "mail-section" "description-section";
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.upper .name .title-section {
+  display: flex;
+  grid-area: title-section;
+  align-items: end;
+  font-size: 32px;
+}
+.upper .name .mail-section {
+  display: flex;
+  grid-area: mail-section;
+  align-items: start;
+  font-size: 16px;
+}
+.upper .name .description-section {
+  grid-area: description-section;
+  font-size: 16px;
+  width: 400px;
+}
+.upper .networks {
+  display: grid;
+  grid-area: networks;
+  grid-template-areas: "title-section" "logos";
+  padding-top: 20px;
+}
+.upper .networks-title {
+  grid-area: title-section;
+}
+.upper .networks-logos {
+  grid-area: logos;
+}
+.upper .languages {
+  display: grid;
+  grid-area: languages;
+  grid-template-areas: "title-section" "logos";
+}
+.upper .languages-title {
+  grid-area: title-section;
+}
+.upper .languages-logos {
+  grid-area: logos;
+}
+.upper .frameworks {
+  display: grid;
+  grid-area: frameworks;
+  grid-template-areas: "title-section" "logos";
+  padding-top: 20px;
+}
+.upper .frameworks-title {
+  grid-area: title-section;
+}
+.upper .frameworks-logos {
+  grid-area: logos;
+}
+.upper .operativesystems {
+  display: grid;
+  grid-area: software;
+  grid-template-areas: "title-section" "logos";
+}
+.upper .operativesystems-title {
+  grid-area: title-section;
+}
+.upper .operativesystems-logos {
+  grid-area: logos;
+}
+
+.lower {
+  padding: 5px 0 0 35px;
+  grid-area: lower;
+  display: grid;
+  width: 230.9mm;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  flex-direction: column;
+}
+.lower a {
+  text-decoration: none;
+  color: black;
+}
+.lower-experience {
+  display: grid;
+  grid-template: "title" "content";
+  width: 430px;
+}
+.lower-experience-title {
+  border-bottom: 2px solid;
+  display: grid;
+  font-size: 20px;
+  padding-top: 0cm;
+  height: 27px;
+}
+.lower-experience-content {
+  display: grid;
+  font-size: 12px;
+}
+.lower-experience-content-table-display {
+  display: inline;
+}
+.lower-experience td .date {
+  text-decoration: none;
+  width: 110px;
+}
+.lower-education {
+  margin-right: 10px;
+  display: grid;
+  grid-template: "title" "content";
+}
+.lower-education-title {
+  height: 27px;
+  border-bottom: 2px solid;
+  font-size: 20px;
+  display: grid;
+}
+.lower-education-content {
+  font-size: 12px;
+  display: grid;
+}
+.lower-education td .date {
+  margin-top: 0;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.lower-prizes {
+  display: grid;
+  grid-template: "title" "content";
+  margin-right: 25px;
+}
+.lower-prizes-title {
+  font-size: 20px;
+  border-bottom: 2px solid;
+  display: grid;
+}
+.lower-prizes-content {
+  font-size: 12px;
+  display: grid;
+}
+.lower-others {
+  margin: 10px;
+  display: grid;
+  grid-template: "title" "content";
+  width: 410px;
+}
+.lower-others-title {
+  font-size: 20px;
+  border-bottom: 2px solid;
+  display: grid;
+}
+.lower-others-content {
+  font-size: 12px;
+  display: grid;
+}
+.lower-publications {
+  display: grid;
+  grid-template: "title" "content";
+}
+.lower-publications-title {
+  font-size: 20px;
+  border-bottom: 2px solid;
+  display: grid;
+}
+.lower-publications-content {
+  font-size: 12px;
+  display: grid;
+}
+
+body {
+  height: 290.4mm;
+  width: 230.9mm;
+  padding-right: 15px;
+  font-family: "Roboto", serif;
+  display: grid;
+  grid-template-areas: "upper" "lower";
+}
+
+/*# sourceMappingURL=index.css.map */

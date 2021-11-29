@@ -1,0 +1,8 @@
+body {
+    height: $height;
+    width: $width;
+    padding-right: 15px;
+    font-family: 'Roboto', serif;
+    display: grid;
+    grid-template-areas: "upper" "lower";
+}
