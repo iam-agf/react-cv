@@ -1,14 +1,14 @@
-import '../App.css';
 import '../index.css';
 import Upper from './Upper.jsx';
-import { Link } from "react-router-dom";
+import Lower from './Lower.jsx';
 
 function App() {
-  return (
-    <>
-        <Upper />
-    </>
-  );
+    return (
+        <>
+            <Upper />
+            <Lower />
+        </>
+    );
 }
 
 export default App;

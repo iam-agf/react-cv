@@ -1,5 +1,3 @@
-import '../App.css';
-import '../index.css';
 import Frameworks from './upper/Frameworks';
 import Languages from './upper/Languages';
 import SocialNetworks from './upper/SocialNetworks';
