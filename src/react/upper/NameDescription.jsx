@@ -1,11 +1,9 @@
 import React from "react";
-import '../../App.css';
 
 class NameDescription extends React.Component {
     constructor(props) {
         super(props);
         this.state = { posts: [] };
-        this.style = { fill: "white" };
         this.noStyleATag = {textDecoration:"none"};
     }
     render() {
