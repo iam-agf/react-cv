@@ -10,8 +10,8 @@ function Lower() {
     <div class='lower'>
         <Experience/>
         <Education/>
-        <Others/>
         <Projects/>
+        <Others/>
         <Prizes/>
     </div>
   );
