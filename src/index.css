@@ -135,7 +135,8 @@
 }
 .lower-prizes {
   display: grid;
-  margin-right: 25px;
+  margin: 0 auto;
+  width: 840px;
 }
 .lower-prizes-title {
   font-size: 20px;
