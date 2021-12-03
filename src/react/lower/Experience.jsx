@@ -16,7 +16,7 @@ class Experience extends React.Component {
                     {
                             experienceData.map((value) =>{
                                 return (
-                                    <div>
+                                    <div style={{paddingBottom:"6px"}}>
                                     <tr>
                                         <td>
                                             <div class='date'>{value.enter}/{value.exit}</div>

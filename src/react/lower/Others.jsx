@@ -16,7 +16,7 @@ class Others extends React.Component {
                     {
                             othersData.map((value) =>{
                                 return (
-                                    <div>
+                                    <div style={{paddingBottom:"6px"}}>
                                         <tr>
                                         <td>
                                             <strong>

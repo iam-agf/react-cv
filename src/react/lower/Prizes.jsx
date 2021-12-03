@@ -17,7 +17,7 @@ class Prizes extends React.Component {
                         {
                             prizesData.map((value) => {
                                 return (
-                                    <div>
+                                    <div style={{paddingBottom:"6px"}}>
                                         <tr>
                                             <td>
                                                 <div class='date'>{value.date}</div>

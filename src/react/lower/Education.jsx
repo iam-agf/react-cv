@@ -16,7 +16,7 @@ class Education extends React.Component {
                         {
                             educationData.map((value) =>{
                                 return (
-                                    <div>
+                                    <div style={{paddingBottom:"6px"}}>
                                     <tr>
                                         <td>
                                             <div class='date'>{value.date}</div>

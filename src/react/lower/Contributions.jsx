@@ -16,7 +16,7 @@ class Contributions extends React.Component {
                         {
                             contributionsData.map((value) => {
                                 return (
-                                    <div>
+                                    <div style={{paddingBottom:"6px"}}>
                                         <tr>
                                         <td>
                                             <strong><a target='_blank' href={value.link}>
