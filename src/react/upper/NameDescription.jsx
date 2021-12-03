@@ -16,7 +16,7 @@ class NameDescription extends React.Component {
                     agf0710@gmail.com
                 </div>
                 <div class='description-section'>
-                    Fast learner and autodidact. Programming problem solver by hobby. Always disposed to learn anything.
+                    Fast learner and autodidact. Always practicing new technologies. More than 10 years coding and 3 of experience. 
                 </div>
             </div>
         );
