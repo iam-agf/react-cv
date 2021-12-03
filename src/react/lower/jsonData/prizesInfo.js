@@ -1,17 +1,17 @@
 export const prizesData = [
     {
-        "date": "2016",
-        "position": "22nd Place",
+        "date": "2015",
+        "position": "24th Place",
         "contest": "ACM-ICPC México and Central America Finals",
         "location": "México City, México, México and Central America",
-        "detail": "Participation as coach training the team that participated in this edition. Teaching of Data Structures and Algorithms for the contest.",
+        "detail": "Contest that evaluate skills in Data Structures and Algorithms to solve by teams a series of computational problems.",
         "link": ""
     }, {
-        "date": 2015,
+        "date": "2015",
         "position": "Honorable Mention",
         "contest": "Mathematical Contest in Modeling by COMAP",
         "location": "Online, International",
-        "detail": "Contest in solving a real life problem modeling it with usage of Mathematics and other sciences. Selected between 7636 teams.",
+        "detail": "Contest focused on modeling and solving a real life problem applying Mathematics and other sciences. Honorable mention over 7636 teams.",
         "link": "https://www.comap-math.com/mcm/2015Certs/41823.pdf"
     }, {
         "date": "2014",

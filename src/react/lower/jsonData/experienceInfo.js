@@ -9,7 +9,7 @@ export const experienceData = [    {
             "Data visualization of cloth manipulation with the usage of Jupyter Notebooks.",
             "Calculation of integrals related to the Gauss Linking Number for curves.",
             "Development of React Apps to list results and cloth simulations.",
-            "Some of the libraries used: numpy, scipy, sympy, matplotlib, plotly, json and os."
+            "Some of the Python libraries used: numpy, scipy, sympy, matplotlib, plotly, json and os."
         ]
     },
     {
