@@ -16,7 +16,7 @@ class Projects extends React.Component {
                         {
                             projectsData.map((value) => {
                                 return (
-                                    <div style={{paddingBottom:"10px"}}>
+                                    <div style={{paddingBottom:"6px"}}>
                                         <tr>
                                         <td>
                                             <strong><a target='_blank' href={value.link}>
