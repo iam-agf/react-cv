@@ -147,18 +147,21 @@
 .lower-others {
   flex-wrap: wrap;
   width: 270px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
 }
 .lower-others-title {
   font-size: 20px;
   border-bottom: 2px solid;
+}
+.lower-others-title-subtitle {
+  font-size: 10px;
 }
 .lower-others-content {
   font-size: 12px;
 }
 .lower-projects {
   width: 550px;
-  margin: 0 auto;
+  margin: auto;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -166,7 +169,25 @@
   font-size: 20px;
   border-bottom: 2px solid;
 }
+.lower-projects-title-subtitle {
+  font-size: 10px;
+}
 .lower-projects-content {
+  font-size: 12px;
+}
+.lower-contributions {
+  flex-wrap: wrap;
+  width: 270px;
+  margin: 0 auto auto auto;
+}
+.lower-contributions-title {
+  font-size: 20px;
+  border-bottom: 2px solid;
+}
+.lower-contributions-title-subtitle {
+  font-size: 10px;
+}
+.lower-contributions-content {
   font-size: 12px;
 }
 
