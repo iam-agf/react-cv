@@ -23,9 +23,11 @@ class Prizes extends React.Component {
                                                 <div class='date'>{value.date}</div>
                                             </td>
                                             <td>
-                                                <strong>
-                                                    {value.position}
-                                                </strong> (<em><a target='_blank' href={value.link}>{value.contest}</a></em>)
+                                                <a target='_blank' href={value.link}>
+                                                    <strong>
+                                                        {value.position}
+                                                    </strong> (<em>{value.contest}</em>)
+                                                </a>
                                             </td>
                                         </tr>
                                         <tr>
