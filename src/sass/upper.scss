@@ -6,7 +6,6 @@
     background-color: $header-color;
     color: $header-font-color;
     display: grid;
-    grid-template-columns: 115mm 1fr 1fr;
     padding: 0 0 0 35px;
     grid-template-areas: "title-name networks frameworks" "title-name languages software";
     .name {
@@ -14,7 +13,7 @@
         display: grid;
         grid-template: "title-section" "mail-section" "description-section";
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 10px;
         .title-section {
             display: flex;
             grid-area: title-section;
