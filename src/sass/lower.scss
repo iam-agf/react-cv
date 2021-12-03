@@ -54,7 +54,8 @@
     }
     &-prizes {
         display: grid;
-        margin-right: 25px;
+        margin: 0 auto;
+        width: 840px;
         &-title {
             font-size: 20px;
             border-bottom: 2px solid;
