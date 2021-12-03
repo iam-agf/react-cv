@@ -1,4 +1,5 @@
 import React from "react";
+import { projectsData } from './jsonData/projectsInfo';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -6,50 +7,33 @@ class Projects extends React.Component {
     }
     render() {
         return (
-            <div class='Projects'>
-                <div class='lower-projects'>
-                    <div class='lower-projects-title'>
-                        Projects
-                    </div>
-                    <div class='lower-projects-content'>
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class='date'>2017-2019</div>
-                                </td>
-                                <td>
-                                    <strong>
-                                        Master Degree in Mathematics.
-                                    </strong>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                    (<em><a target='_blank' href="https://www.math.cinvestav.mx/en/graduateMaster">CINVESTAV</a>, México City, Mexico</em>) <br /> Final GPA: 8,5/10,0.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class='date'>2012-2016</div>
-                                </td>
-                                <td>
-                                    <strong>
-                                        Bachelor Degree in Mathematics.
-                                    </strong>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                    (<em><a target='_blank' href="https://www.matematicas.uady.mx/">UADY</a>, Yucatán, Mexico</em>) <br /> Final GPA: 8,6/10,0.
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+            <div class='lower-projects'>
+                <div class='lower-projects-title'>
+                    Projects <div style={{fontSize:10}}>(Clickable titles)</div> 
+                </div>
+                <div class='lower-projects-content'>
+                    <table>
+                        {
+                            projectsData.map((value) => {
+                                return (
+                                    <div>
+                                        <tr>
+                                        <td>
+                                            <strong><a target='_blank' href={value.link}>
+                                                {value.name}
+                                            </a></strong> (<em>{value.language}</em>)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                            {value.details}
+                                    </tr>
+                                    </div>
+                                )
+                            })
+                        }
+                    </table>
                 </div>
             </div>
-
         );
     }
 }

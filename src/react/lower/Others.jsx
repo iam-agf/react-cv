@@ -7,38 +7,31 @@ class Others extends React.Component {
     }
     render() {
         return (
-            <div class='Others'>
-                <div class='lower-others'>
-                    <div class='lower-others-title'>
-                        Others
-                    </div>
-                    <div class='lower-others-content'>
-                        <table>
-                        {
-                                othersData.map((value) =>{
-                                    return (
-                                        <div>
-                                            <tr>
-                                            <td>
-                                            <li>
-                                                <strong>
-                                                    {value.title}
-                                                </strong> (<em><a target='_blank' href={value.link}>{value.center}</a>link{value.location}</em>)
-    
-                                        </li>
-                                            </td>
-                                        </tr>
+            <div class='lower-others'>
+                <div class='lower-others-title'>
+                    Publications <div style={{fontSize:10}}>(Clickable titles)</div> 
+                </div>
+                <div class='lower-others-content'>
+                    <table>
+                    {
+                            othersData.map((value) =>{
+                                return (
+                                    <div>
                                         <tr>
-                                            <ul>
-                                                {value.content}
-                                            </ul>
-                                        </tr>
-                                        </div>
-                                    )
-                                })
-                        }
-                        </table>
-                    </div>
+                                        <td>
+                                            <strong>
+                                            <a target='_blank' href={value.link}> {value.title}</a>
+                                            </strong> 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    &nbsp;    {value.content}
+                                    </tr>
+                                    </div>
+                                )
+                            })
+                    }
+                    </table>
                 </div>
             </div>
         );
