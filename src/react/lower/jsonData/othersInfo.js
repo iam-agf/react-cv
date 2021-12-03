@@ -5,11 +5,11 @@ export const othersData = [
         "link": "https://youtu.be/yqDA8eezPuo"
     }, {
         "title": "On Almost Simple Transcendental ", 
-        "content": "Paper, International Journal of Algebra, 2015, Volumen 9.",
+        "content": "Int. Journal of Algebra, 2015, Volumen 9.",
         "link": "http://www.m-hikari.com/ija/ija-2015/ija-1-4-2015/perezIJA1-4-2015.pdf"
     }, {
         "title": "Luroth's Theorem", 
-        "content": "Paper, Abstract & Application, 2014, Volumen 11.",
+        "content": "Abstract & Application, 2014, Volumen 11.",
         "link": "https://intranet.matematicas.uady.mx/journal/"
     }
 ];
