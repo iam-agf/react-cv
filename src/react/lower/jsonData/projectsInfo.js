@@ -10,6 +10,11 @@ export const projectsData = [
         "details": "Script that works as a daemon in your computer to use a telegram chat as a linux terminal from your Telegram account and will only answer to your messages. For now it only works for Linux.",
         "link": "https://github.com/iam-agf/controller_bot.git"
     }, {
+        "name": "Simple React CV",
+        "language": "Javascript/React/SCSS",
+        "details": "This CV was written using React with SCSS.",
+        "link": "https://github.com/iam-agf/react-cv"
+    }, {
         "name": "App for Gym training",
         "language": "Dart/Flutter",
         "details": "Mobile app to trace your maximum Repetition Maximum using the Brzycki's Method. It has a set of exercise and a chart per exercise to show the increment registered per day.",
