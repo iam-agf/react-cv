@@ -66,10 +66,13 @@
     &-others {
         flex-wrap: wrap;
         width: 270px;
-        margin: 0 auto;
+        margin: 0 auto 10px auto;
         &-title {
             font-size: 20px;
             border-bottom: 2px solid;
+            &-subtitle {
+                font-size: 10px;    
+            }
         }
         &-content {
             font-size: 12px;
@@ -77,12 +80,30 @@
     }
     &-projects {
         width: 550px;
-        margin: 0 auto;
+        margin: auto;
         justify-content: center;
         flex-wrap: wrap;
         &-title {
             font-size: 20px;
             border-bottom: 2px solid;
+            &-subtitle {
+                font-size: 10px;    
+            }
+        }
+        &-content {
+            font-size: 12px;
+        }
+    }
+    &-contributions {
+        flex-wrap: wrap;
+        width: 270px;
+        margin: 0 auto auto auto;
+        &-title {
+            font-size: 20px;
+            border-bottom: 2px solid;
+            &-subtitle {
+                font-size: 10px;    
+            }
         }
         &-content {
             font-size: 12px;
