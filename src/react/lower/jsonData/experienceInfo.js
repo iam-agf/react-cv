@@ -7,8 +7,8 @@ export const experienceData = [    {
         "location": "Barcelona, Spain",
         "content": [
             "Data visualization of cloth manipulation with the usage of Jupyter Notebooks.",
-            "Mathematical calculations of integrals related to the Gauss Linking Number for curves.",
-            "Development of simple React Apps to expose experiments results and cloth simulations.",
+            "Calculation of integrals related to the Gauss Linking Number for curves.",
+            "Development of React Apps to list results and cloth simulations.",
             "Some of the libraries used: numpy, scipy, sympy, matplotlib, plotly, json and os."
         ]
     },
@@ -21,7 +21,7 @@ export const experienceData = [    {
         "location": "Mérida & México City, México",
         "content" : [
             "Automation of usage of APIs with Python",
-            "Backend development in Javascript for MongoDB, MariaDB and RethinkDB databases",
+            "Backend in Javascript databases in MongoDB, MariaDB and RethinkDB",
             "Manual testing of APIs in Postman and simple automated tests in Mocha.",
             "Restructure of Backend templates for future projects"
         ]
