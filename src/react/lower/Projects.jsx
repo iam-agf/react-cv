@@ -9,7 +9,7 @@ class Projects extends React.Component {
         return (
             <div class='lower-projects'>
                 <div class='lower-projects-title'>
-                    Projects <div style={{fontSize:10}}>(Clickable titles)</div> 
+                    Projects <div class='lower-projects-title-subtitle'>(Clickable titles)</div> 
                 </div>
                 <div class='lower-projects-content'>
                     <table>

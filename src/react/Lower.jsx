@@ -1,4 +1,5 @@
 import '../index.css';
+import Contributions from './lower/Contributions';
 import Education from './lower/Education';
 import Experience from './lower/Experience';
 import Others from './lower/Others';
@@ -11,7 +12,10 @@ function Lower() {
         <Experience/>
         <Education/>
         <Projects/>
-        <Others/>
+        <div style={{display:'flex', flexDirection: 'column', margin: '0 auto'}}>
+          <Contributions/>
+          <Others/>
+        </div>
         <Prizes/>
     </div>
   );

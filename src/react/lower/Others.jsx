@@ -9,7 +9,7 @@ class Others extends React.Component {
         return (
             <div class='lower-others'>
                 <div class='lower-others-title'>
-                    Publications <div style={{fontSize:10}}>(Clickable titles)</div> 
+                    Publications <div class='lower-others-title-subtitle'>(Clickable titles)</div> 
                 </div>
                 <div class='lower-others-content'>
                     <table>
