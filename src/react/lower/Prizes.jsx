@@ -10,7 +10,7 @@ class Prizes extends React.Component {
         return (
             <div class='lower-prizes'>
                 <div class='lower-prizes-title'>
-                    Prizes
+                    Prizes <div class='lower-others-title-subtitle'>(Clickable titles)</div>
                 </div>
                 <div class='lower-prizes-content'>
                     <table>
@@ -23,11 +23,16 @@ class Prizes extends React.Component {
                                                 <div class='date'>{value.date}</div>
                                             </td>
                                             <td>
+                                                {value.link ? 
                                                 <a target='_blank' href={value.link}>
                                                     <strong>
                                                         {value.position}
                                                     </strong> (<em>{value.contest}</em>)
-                                                </a>
+                                                </a> : 
+                                                <> <strong>
+                                                        {value.position}
+                                                    </strong> (<em>{value.contest}</em>)
+                                                </>}
                                             </td>
                                         </tr>
                                         <tr>
