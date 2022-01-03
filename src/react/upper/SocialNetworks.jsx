@@ -11,7 +11,7 @@ class SocialNetworks extends React.Component {
         return (
                 <div class='networks'>
                     <div class='networks-title'>
-                        Social Networks
+                        Networks
                     </div>
                     <div class='networks-logos'>
                         <a style={this.noStyleATag} href='https://github.com/iam-agf'>
