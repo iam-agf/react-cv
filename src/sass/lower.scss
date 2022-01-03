@@ -1,5 +1,6 @@
 @import './localVariables';
 .lower {
+    text-justify: distribute;
     margin: auto;
     max-width: $width;
     padding-top: 15px;

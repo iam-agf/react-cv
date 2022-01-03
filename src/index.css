@@ -81,6 +81,7 @@
 }
 
 .lower {
+  text-justify: distribute;
   margin: auto;
   max-width: 230.9mm;
   padding-top: 15px;
